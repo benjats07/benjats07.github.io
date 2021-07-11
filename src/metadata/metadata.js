@@ -1,68 +1,90 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Benjamin Torres Saavedra',
+  title: 'Maestro en Ciencias de la Computación',
   facts: {
-    'Residence': 'London',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
-                </a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    'Residencia': 'México',
+    'Email': '<a href="mailto:benjats07@hotmail.com">benjats07@hotmail.com</a>'
   },
-  skills: [
-    ['Comedy', '++++'],
-    ['Love', '++++'],
-    ['Theater', '++++'],
-    ['Tragedy', '++++'],
-    ['Poetry', '++++'],
-    ['Erotic', '+++'],
-    ['Sonnets', '++++'],
-    ['Plays', '++++'],
-    ['Writing', '++++'],
-    ['Directing', '+++'],
-    ['Literature', '++++'],
-    ['Influence', '++++'],
+  idiomas:['Español (nativo)','Ingles (intermedio)'],
+  habilidades: [
+    ['IA', '++++','brain.png'],
+    ['Python', '+++','python-logo-mini.png'],
+    ['Pytorch', '++++','pytorch-logo.png'],
+    ['Docker', '+++','docker.png'],
+    ['Visión por computadora', '++++','eye.png'],
+    ['Linux','+++','tux.png']
   ],
-  plays: [
+  trabajos: [
     {
-      title: 'Hamlet',
-      written: 'Likely early 17th century',
-      badges: ['tragedy', 'philosophy', 'death'],
-      contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+      title: 'Analista de IA, Ago consultores',
+      periodo: 'Noviembre 2019 - Hoy',
+      etiquetas: ['IA', 'Pytorch', 'Python'],
+      contenido: `
+      Implementé exitosamente modelos para la clasificación de imágenes, comenzando por la metodología de adquisición de datos, almacenamiento y su uso para el entrenamiento de redes neuronales convolucionales. Diseñé flujos de procesamiento de datos en arquitecturas distribuidas.`
     },
     {
-      title: 'Twelfth Night',
-      written: '1600 – 1601',
-      badges: ['comedy', 'love'],
-      contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+      title: 'Ayudante de profesor, Facultad de Ciencias, UNAM',
+      periodo: '2017 - 2019',
+      etiquetas: ['Ciencias de la computación', 'IA', 'Redes neuronales'],
+      contenido: `
+      Desempeñé el cargo de ayudante de distintos cursos: Introducción a Ciencias de la Computación, Inteligencia artificial y Redes neuronales`
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      written: '1595–1596, with a possible early draft written in 1591',
-      badges: ['tragedy', 'death', 'love'],
-      contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
+      title: 'Herbario, Facultad de Ciencias, UNAM.',
+      periodo: 'Abril - Septiembre 2016',
+      etiquetas: ['Access','VB'],
+      contenido: `
+      Implementé un software para realizar procesos de limpieza de una base de datos, verifiqué y corregí la integridad referencial de la misma.
+      `
     }
   ],
   experience: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
+      header: 'Maestria en Ciencia e Ingeniería de la Computación',
+      fecha : '2017 - 2019',
+      sede: 'IIMAS, UNAM',
+      skills: ['IA', 'Vision','Algoritmos geneticos','Aprendizaje profundo'],
+      contenido: `
+      Reporte de prácticas profesionales: Perfilado de clientes en islas comerciales.
+      Materias de salida: Visión por computadora, Computación evolutiva, Aprendizaje profundo.
 `
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. He dedicated them to Henry Wriothesley, Earl of Southampton.
-`
+      header: 'Licenciatura en Ciencias de la Computación',
+      fecha: '2012 - 2017',
+      sede : 'Facultad de Ciencias, UNAM',
+      skills: ['Algoritmos paralelos','Algoritmos genéticos'],
+      contenido: `
+      Tesis: Implementación de reconocimiento de voz con aprendizaje profundo.<br/>
+      Materias de salida: Algoritmos genéticos, Algoritmos paralelos, Redes neuronales.
+    `
+    },
+    {
+      header: 'Técnico en desarrollo de software',
+      fecha: '2010 - 2011',
+      sede : 'CCH Naucalpan, UNAM',
+      skills: ['Visual Basic 6','C'],
+      contenido: ` `
+    }
+  ],
+  cursos: [
+    {
+      header: 'Git + Github',
+      fecha : 'Agosto 2020',
+      sede: 'Udemy',
+      contenido: ` `
+    },
+    {
+      header: 'Administración de servidores linux',
+      fecha: 'Junio 2016',
+      sede : 'Facultad de Ciencias, UNAM',
+      contenido: ` `
+    },
+    {
+      header: 'Programación y videojuegos',
+      fecha: 'Enero 2012',
+      sede : 'CCH Naucalpan, UNAM',
+      contenido: ` `
     }
   ]
 };
