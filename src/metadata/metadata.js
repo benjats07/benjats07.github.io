@@ -3,7 +3,8 @@ module.exports = {
   title: 'Maestro en Ciencias de la Computación',
   facts: {
     'Residencia': 'México',
-    'Email': '<a href="mailto:benjats07@hotmail.com">benjats07@hotmail.com</a>'
+    'Email': '<a href="mailto:benjats07@hotmail.com">benjats07@hotmail.com</a>',
+    'Github': '<a href="https://github.com/benjats07">github.com/benjats07</a>'
   },
   idiomas:['Español (nativo)','Ingles (intermedio)'],
   habilidades: [
